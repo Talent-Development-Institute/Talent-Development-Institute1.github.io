@@ -1,0 +1,63 @@
+body{
+    transition: all 0.5s;
+}
+
+.nav-item a{
+    padding-left:5px!important;
+}
+
+#mainNav .active{
+    border-radius: 8px;
+    background-color: #0092FF;
+}
+
+.btnBg{
+    border-radius: 4px;
+}
+
+.btnText{
+    color: #1450B4;
+}
+
+.section4 {
+    background-image: url("../img/background/blockchain.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+#sc4_left img{
+    max-width: 200px;
+}
+
+#sc4_center img{
+    min-width: 345px;
+    width: 100%;
+}
+
+#sc4_right{
+    position: relative;
+}
+
+.text-center{
+    position: absolute;
+    top:30%;
+    left: 30px;
+}
+
+#sc4_right p{
+    font-size:34px;
+    font-weight: bold;
+    color: #173584;
+}
+
+#sc4_right span{
+    font-size: 18px;
+}
+
+#section5 img{
+    width: 100%;
+}
