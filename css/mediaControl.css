@@ -1,0 +1,154 @@
+@media only screen and (max-width: 990px) {
+    .imgPaddingForArrowRight {
+        padding-right: 15%;
+    }
+
+    .imgPaddingForArrowLeft {
+        padding-left: 35%;
+    }
+
+    .ucFontSetting1 {
+        padding-left: 45px;
+    }
+
+    .ucFontSetting2 {
+        padding-left: 45px;
+    }
+
+    .ucFontSetting3 {
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mediaControl_ChangeToCol12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .dotsPara1 {}
+
+    .dotsPara2 {}
+
+    .dotsPara3 {}
+
+    .headerImg {}
+
+    .mediaControl_rowPadding {
+        padding: 0px 10% 0px;
+    }
+
+    .frameColor1 {
+        margin-top: 80px;
+        border-radius: 144px;
+        /* padding: 30px; */
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .frameColor2 {
+        border-radius: 40px;
+        /* padding: 30px; */
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    /* use cases */
+    .mediaControlDisplayNone {
+        /* display: none; */
+    }
+
+    .ucFontSetting1 {
+        padding-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ucFontSetting2 {
+        padding-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ucFontSetting3 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .imgPaddingForArrowRight {
+        padding: 0% 10% 0%;
+    }
+
+    .imgPaddingForArrowLeft {
+        padding-left: 0%;
+    }
+
+    .ucImgSetting {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 990px) {
+
+    .rowMargin {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .dotsPara1 {
+        padding-top: 0px;
+    }
+
+    .dotsPara2 {
+        padding-top: 0px;
+    }
+
+    .dotsPara3 {}
+
+    .imgPaddingForArrowRight {
+        padding-right: 15%;
+    }
+
+    .imgPaddingForArrowLeft {
+        padding-left: 35%;
+    }
+
+    .imgPaddingForArrowLeft {
+
+        padding-left: 35%;
+    }
+
+    .imgPaddingForArrowRight {
+        padding-right: 10%;
+    }
+
+    /* .mySlides {display: none} */
+
+    .paddingLeftAndRightFix {
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+
+    .ucFontSetting1 {
+        padding-left: 30px;
+    }
+
+    .ucFontSetting2 {
+        padding-left: 30px;
+    }
+
+    .ucFontSetting3 {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .rowMargin {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
