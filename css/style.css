@@ -1,7 +1,10 @@
 body{
     transition: all 0.5s;
 }
-
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .nav-item a{
     padding-left:5px!important;
 }
@@ -34,7 +37,7 @@ body{
 }
 
 #sc4_center img{
-    min-width: 345px;
+    /* min-width: 345px; */
     width: 100%;
 }
 
@@ -60,4 +63,11 @@ body{
 
 #section5 img{
     width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #sc4_center img{
+        min-width: 345px;
+    }
 }
