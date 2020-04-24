@@ -119,15 +119,15 @@
     }
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
     .mediaBgIpad{
         background-image: url(../img/background/minWidth1024.png);
         background-repeat: repeat-y;
     }
 
-}
+} */
 
-@media only screen and (min-width: 1499px) {
+@media only screen and (min-width: 1024px) {
     .mediaBgIpad{
         background-image: url(../img/background/minWidth1500.png);
     }
@@ -136,7 +136,7 @@
 
 @media only screen and (min-width: 1600px) {
     .mediaBgIpad{
-        background-image: url(../img/background/min1600.png);
+        background-image: url(../img/background/minWidth1600.png);
         background-repeat: repeat-y;
     }
 
