@@ -573,3 +573,11 @@ i.fa {
     text-align: center;
     color: #DFDFDF;
 }
+
+.widthControl1 {
+    max-width: 15% !important;
+}
+
+.widthControl2 {
+    max-width: 28.3% !important;
+}
