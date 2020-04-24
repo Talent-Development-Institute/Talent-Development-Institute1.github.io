@@ -1,3 +1,10 @@
+@media only screen and (device-width: 1024px) {
+
+    .mediaBgIpad{
+        background-image: url(../img/background/ipadProBg.png);
+    }
+}
+
 @media only screen and (max-width: 990px) {
     .imgPaddingForArrowRight {
         padding-right: 15%;
@@ -20,7 +27,13 @@
     }
 }
 
+
 @media only screen and (max-width: 768px) {
+
+    .mediaBgIpad{
+        background-image: url(../img/background/ipadBg.png);
+    }
+
     .mediaControl_ChangeToCol12 {
         flex: 0 0 100% !important;
         max-width: 100% !important;
@@ -90,7 +103,34 @@
     }
 }
 
+@media only screen and (max-width: 414px) {
 
+    .mediaBgIpad{
+        background-image: url(../img/background/i8Plus.png);
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    .mediaBgIpad{
+        background-image: url(../img/background/minWidth1024.png);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mediaBgIpad{
+        background-image: url(../img/background/minWidth1024.png);
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+    .mediaBgIpad{
+        background-image: url(../img/background/min1600.png);
+        background-repeat: repeat-y;
+    }
+
+}
 
 @media only screen and (min-width: 990px) {
 
