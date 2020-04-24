@@ -107,6 +107,7 @@
 
     .mediaBgIpad{
         background-image: url(../img/background/i8Plus.png);
+        background-repeat: repeat-y;
     }
 }
 
@@ -114,12 +115,21 @@
 
     .mediaBgIpad{
         background-image: url(../img/background/minWidth1024.png);
+        background-repeat: repeat-y;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .mediaBgIpad{
         background-image: url(../img/background/minWidth1024.png);
+        background-repeat: repeat-y;
+    }
+
+}
+
+@media only screen and (min-width: 1499px) {
+    .mediaBgIpad{
+        background-image: url(../img/background/minWidth1500.png);
     }
 
 }
