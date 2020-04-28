@@ -1,0 +1,173 @@
+/* section 1 */
+
+.fontSize28 {
+    font-size: 28px;
+}
+
+.fontSize16 {
+    font-size: 16px;
+}
+
+.fontSize14 {
+    font-size: 14px;
+}
+
+.fontSize12 {
+    font-size: 12px !important;
+}
+
+.fontColorWhite {
+    color: white;
+}
+
+.bgWhite {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 4px;
+}
+
+.rowFrame {
+    border: 15px solid #0A1932;
+    font-size: 12px;
+    padding: .75rem;
+}
+
+.paddingForCourseFrame {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* padding: 16px; */
+}
+
+.paddingForCourseIcons {
+    padding: 0px;
+}
+
+.courseIcons {
+    width: 48px;
+    display: block;
+    margin: auto;
+    height: 48px;
+}
+
+.courseName {
+    /* padding: 4px; */
+    display: block;
+    padding-left: .75rem;
+    width: max-content;
+}
+
+.courseDesc {
+    /* margin-top: 4px; */
+    padding-left: .75rem;
+    display: block;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    /* width: fit-content; */
+}
+
+.paddingForCourseInfo {
+    padding: 0px;
+}
+
+
+/* tabList */
+.tab-content {
+    display: none;
+    padding: 0 18px;
+}
+
+.is-active {
+    display: block;
+}
+
+.is-noneByDefault {
+    display: none;
+}
+
+.tabs li.is-active a {
+    border-bottom-color: #3273dc;
+    color: white;
+}
+
+/* tabList */
+
+/* 2 */
+
+/* .btn-primary {
+    color: #fff;
+    background-color: #0A1932;
+    border-color: #0A1932;
+} */
+
+.defaultActive {
+    background-color: #0062cc;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
+
+
+.colorHover1 {
+    background-color: #083173 !important;
+    border-color:  #083173 !important;
+}
+
+.colorHover2 {
+    background-color: #1eb2f2 !important;
+    border-color:  #1eb2f2 !important;
+}
+
+.colorHover3 {
+    background-color: #50e3c2 !important;
+    border-color:  #50e3c2 !important;
+}
+
+
+
+
+/* section 3 - promotion */
+.promotionSection {
+    background-color: #0A1932 !important;
+    /* height: 200px !important; */
+    width: 100%;
+    padding: 20px;
+}
+
+.sectionAdvertise {
+    padding: 0px;
+}
+
+
+.container {
+    /* height: 150px; */
+}
+
+/* section 3 */
