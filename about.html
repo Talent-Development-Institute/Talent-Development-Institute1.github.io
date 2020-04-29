@@ -23,7 +23,7 @@
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/r.css" rel="stylesheet">
-    <link href="css/mediaControl.css" rel="stylesheet">
+    <!-- <link href="css/mediaControl.css" rel="stylesheet"> -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
 
@@ -83,62 +83,29 @@
             <div class="my-tabs mt-3">
                 <nav class="tabs">
                     <ul>
-                        <li class="is-active sectionMainFontFamily"><a href="#tab-one">IBCC</a></li>
+                        <li class="is-active sectionMainFontFamily"><a href="#tab-one">IBTT</a></li>
                         <li class="sectionMainFontFamily"><a href="#tab-two">Data Science</a></li>
                         <li class="sectionMainFontFamily"><a href="#tab-three">Fintech</a></li>
                     </ul>
                 </nav>
+                
                 <div class="tab-content is-active" id="tab-one">
-                    <div class="row">
-                        <div class="col-4 bgWhite rowFrame mediaControl_ChangeToCol12">
-                            <div class="row paddingForCourseFrame">
-                                <div class="col-3 paddingForCourseIcons">
-                                    <img src="./img/about/004-high-five.png" class="courseIcons">
-                                </div>
-                                <div class="col-9 paddingForCourseInfo">
-                                    <div class="courseName sectionMainFontFamily fontSize16"><a href="">ibcc</a>
-                                    </div>
-                                    <div class="courseDesc sectionMainFontFamilyThin fontSize12">Solutions Architects
-                                        have
-                                        expertise in compute, network, storage, security.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 bgWhite rowFrame mediaControl_ChangeToCol12">
-                            <div class="row paddingForCourseFrame">
-                                <div class="col-3 paddingForCourseIcons">
-                                    <img src="./img/about/004-high-five.png" class="courseIcons">
-                                </div>
-                                <div class="col-9 paddingForCourseInfo">
-                                    <div class="courseName sectionMainFontFamily fontSize16"><a href="">Developer2</a>
-                                    </div>
-                                    <div class="courseDesc sectionMainFontFamilyThin fontSize12">Solutions Architects
-                                        have
-                                        expertise in compute, network, storage, security.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 bgWhite rowFrame mediaControl_ChangeToCol12">
-                            <div class="row paddingForCourseFrame">
-                                <div class="col-3 paddingForCourseIcons">
-                                    <img src="./img/about/004-high-five.png" class="courseIcons">
-                                </div>
-                                <div class="col-9 paddingForCourseInfo">
-                                    <div class="courseName sectionMainFontFamily fontSize16"><a href="">Developer3</a>
-                                    </div>
-                                    <div class="courseDesc sectionMainFontFamilyThin fontSize12">Solutions Architects
-                                        have
-                                        expertise in compute, network, storage, security.</div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row" id="ibccRow">
+                        <div class="fontSize14 sectionMainFontFamilyThin ">International Board of Trust Technologies (IBTT) is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</div>
                     </div>
                 </div>
 
                 <!--  -->
                 <div class="tab-content is-active is-noneByDefault" id="tab-two">
                     <div class="row">
-                        <div class="col-4 bgWhite rowFrame mediaControl_ChangeToCol12">
+                        <div class="tooltip-wrap">
+                            <img src="/some/image/file.jpg" alt="Some Image" />
+                            <div class="tooltip-content">
+                              <p>Here is some content for the tooltip</p>
+                            </div> 
+                          </div>
+                        <div class="col-4 bgWhite rowFrame mediaControl_ChangeToCol12 tooltip">
+                            <span class="tooltiptext">Tooltip text</span>
                             <div class="row paddingForCourseFrame">
                                 <div class="col-3 paddingForCourseIcons">
                                     <img src="./img/about/004-high-five.png" class="courseIcons">
@@ -146,7 +113,7 @@
                                 <div class="col-9 paddingForCourseInfo">
                                     <div class="courseName sectionMainFontFamily fontSize16"><a href="">data sc</a>
                                     </div>
-                                    <div class="courseDesc sectionMainFontFamilyThin fontSize12">Solutions Architects
+                                    <div class="courseDesc sectionMainFontFamilyThin fontSize12 ">Solutions Architects
                                         have
                                         expertise in compute, network, storage, security.</div>
                                 </div>
@@ -479,6 +446,7 @@
     <script src="js/slide.js"></script>
     <script src="js/tabList.js"></script>
     <script src="js/style.js"></script>
+    <script src="js/ibtt.js"></script>
     <script></script>
 </body>
 
