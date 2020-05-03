@@ -101,6 +101,10 @@
         text-align: center;
         padding-bottom: 10px;
     }
+
+    .mediaControl_Padding {
+        padding: 8px;
+    }
 }
 
 @media only screen and (max-width: 414px) {

@@ -53,15 +53,13 @@ for (let i = 0; i < ibccDescArr.length; i++) {
 
 // data science
 var dsHref = [
-    'blockchain.html#fundamentalsTrack',
-    '',
-    ''
+    'dataScienceCourse.html#epidemiologyTrack',
+    'dataScienceCourse.html#juliaProgrammingTrack'
 ];
 
 var dsTitleArr = [
     'Epidemiology Track',
-    'Julia Programming Track',
-    'xxx'
+    'Julia Programming Track'
 ];
 
 var dsDescArr = [
@@ -70,8 +68,7 @@ var dsDescArr = [
 ];
 var dsImgArr = [
     './img/aboutPage/ibcc/BC100.png',
-    './img/aboutPage/ibcc/BC101.png',
-    './img/aboutPage/ibcc/BC102.png'
+    './img/aboutPage/ibcc/BC101.png'
 ];
 
 var dsRow = document.getElementById('dsRow');
@@ -85,7 +82,7 @@ for (let i = 0; i < dsDescArr.length; i++) {
         '</div>' +
         '<div class="col-9 paddingForCourseInfo">' +
         '<div class="courseName sectionMainFontFamily fontSize16">' +
-        '<a href="' + dsHref + '">' + dsTitleArr[i] + '</a>' +
+        '<a href="' + dsHref[i] + '">' + dsTitleArr[i] + '</a>' +
         '</div>' +
         '<div class="fontSize12 courseDesc sectionMainFontFamilyThin  ">' + dsDescArr[i] + ' </div>' +
         '</div>' +
@@ -100,16 +97,17 @@ for (let i = 0; i < dsDescArr.length; i++) {
 
 
 // fintech
-var ftHref = 'https://courses.talentdevelopment.institute/programs/ibcol';
+var ftHref = [
+    'fintechCourse.html#securityPricing',
+    'fintechCourse.html#portfolioManagement',
+    'fintechCourse.html#algorithmicTradingStrategies'
+];
 
 var ftTitleArr = [
     'Quantitative Finance: Security Pricing',
     'Quantitative Finance: Portfolio Management ',
     'Quantitative Finance: Algorithmic Trading Strategies '
 ];
-
-
-
 
 
 var ftDescArr = [
