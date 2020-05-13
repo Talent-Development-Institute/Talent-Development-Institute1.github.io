@@ -10,8 +10,8 @@ body{
 }
 
 #mainNav .active{
-    border-radius: 8px;
-    background-color: #0092FF;
+    /* border-radius: 8px; */
+    background-color: transparent;
 }
 
 .btnBg{
