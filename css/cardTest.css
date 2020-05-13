@@ -61,14 +61,24 @@
 /* bc bg img */
 .bcBgImg1 {
     background: url("../img/courses/tempBg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+
 }
 
 .bcBgImg2 {
     background: url("../img/courses/tempBg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 .bcBgImg3 {
     background: url("../img/courses/tempBg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 .blog-author,
