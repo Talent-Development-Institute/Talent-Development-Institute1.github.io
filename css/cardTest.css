@@ -32,6 +32,13 @@
 
 
 
+@media screen and (max-width: 1023px) {
+    .w768-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .w768-12 {
         flex: 0 0 100%;
@@ -76,6 +83,34 @@
 
 .bcBgImg3 {
     background: url("../img/courses/tempBg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.bcBgImg4 {
+    background: url("../img/courses/tempBg4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.bcBgImg5 {
+    background: url("../img/courses/tempBg5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.bcBgImg6 {
+    background: url("../img/courses/tempBg6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.bcBgImg7 {
+    background: url("../img/courses/tempBg7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
@@ -241,4 +276,8 @@
 /* self */
 .bc1xx {
     height: 478px !important;
+}
+
+.bgFafafa {
+    background-color: #fafafa !important;
 }
