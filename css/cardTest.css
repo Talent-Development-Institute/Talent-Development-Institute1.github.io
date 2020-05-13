@@ -9,9 +9,9 @@
     box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
     font-family: "adelle-sans", sans-serif;
     font-weight: 100;
-    margin: 48px auto;
+    margin: 24px auto;
     width: 20rem;
-    width: 80%;
+    width: 90%;
 
     @media screen and (min-width: 480px) {
         width: 28rem;
@@ -26,6 +26,20 @@
     }
 }
 
+.blog-container2 {
+    width: 70% !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .w768-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
 .blog-container a {
     color: #4d4dff;
     text-decoration: none;
@@ -33,16 +47,28 @@
 }
 
 .blog-container a:hover {
-    border-color: #ff4d4d;
-    color: #ff4d4d;
+    /* border-color: #ff4d4d;
+    color: #ff4d4d; */
 }
 
 .blog-cover {
-    background: url("../img/WallpaperBlockchain/yosemite-3.jpg");
     background-size: cover;
     border-radius: 5px 5px 0 0;
     height: 15rem;
     box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+}
+
+/* bc bg img */
+.bcBgImg1 {
+    background: url("../img/courses/tempBg1.jpg");
+}
+
+.bcBgImg2 {
+    background: url("../img/courses/tempBg2.jpg");
+}
+
+.bcBgImg3 {
+    background: url("../img/courses/tempBg3.jpg");
 }
 
 .blog-author,

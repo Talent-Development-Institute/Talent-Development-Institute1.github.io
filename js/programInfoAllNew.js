@@ -18,8 +18,8 @@ var ibccDescArr = [
 
 var ibccImgArr = [
     './img/aboutPage/ibcc/BC100.png',
-    './img/aboutPage/ibcc/BC101.png',
-    './img/aboutPage/ibcc/BC102.png'
+    './img/aboutPage/ibcc/BC200.png',
+    './img/aboutPage/ibcc/BC300.png'
 
 ];
 
@@ -67,8 +67,8 @@ var dsDescArr = [
     '● Introduction to Julia <br>● Introduction to Control Flow in Julia <br>● Advanced Programming Concepts in Julia <br>● Data Science in Julia'
 ];
 var dsImgArr = [
-    './img/aboutPage/ibcc/BC100.png',
-    './img/aboutPage/ibcc/BC101.png'
+    './img/webIcon/webLogo1.png',
+    './img/webIcon/webLogo1.png'
 ];
 
 var dsRow = document.getElementById('dsRow');
@@ -117,9 +117,9 @@ var ftDescArr = [
 ];
 
 var ftImgArr = [
-    './img/aboutPage/ibcc/BC100.png',
-    './img/aboutPage/ibcc/BC101.png',
-    './img/aboutPage/ibcc/BC102.png'
+    './img/webIcon/webLogo1.png',
+    './img/webIcon/webLogo1.png',
+    './img/webIcon/webLogo1.png'
 ];
 
 var ftRow = document.getElementById('fintechRow');
